@@ -11,6 +11,8 @@
 		4A45484F2A559FAF0044A97C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A45484E2A559FAF0044A97C /* ContentView.swift */; };
 		4A4548512A559FB00044A97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4548502A559FB00044A97C /* Assets.xcassets */; };
 		4A4548542A559FB00044A97C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4548532A559FB00044A97C /* Preview Assets.xcassets */; };
+		4A45485C2A56B1630044A97C /* ActiveKeyboardField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A45485B2A56B1630044A97C /* ActiveKeyboardField.swift */; };
+		4A45485F2A56B1AF0044A97C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A45485E2A56B1AF0044A97C /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4A45484E2A559FAF0044A97C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A4548502A559FB00044A97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A4548532A559FB00044A97C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A45485B2A56B1630044A97C /* ActiveKeyboardField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveKeyboardField.swift; sourceTree = "<group>"; };
+		4A45485E2A56B1AF0044A97C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		4A45484B2A559FAF0044A97C /* CardCreationSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4A45485D2A56B1A80044A97C /* View */,
+				4A45485A2A56B1520044A97C /* Model */,
 				4A45484C2A559FAF0044A97C /* CardCreationSwiftUIApp.swift */,
 				4A45484E2A559FAF0044A97C /* ContentView.swift */,
 				4A4548502A559FB00044A97C /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				4A4548532A559FB00044A97C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A45485A2A56B1520044A97C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A45485B2A56B1630044A97C /* ActiveKeyboardField.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A45485D2A56B1A80044A97C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A45485E2A56B1AF0044A97C /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A45485C2A56B1630044A97C /* ActiveKeyboardField.swift in Sources */,
 				4A45484F2A559FAF0044A97C /* ContentView.swift in Sources */,
+				4A45485F2A56B1AF0044A97C /* Home.swift in Sources */,
 				4A45484D2A559FAF0044A97C /* CardCreationSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
